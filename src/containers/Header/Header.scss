@@ -1,0 +1,49 @@
+@import "../../styles/common.scss";
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    .header-tail {
+        display: flex;
+        .languages {
+            line-height: 40px;
+            margin: 0 8px;
+            .language-en {
+                margin: 0 4px;
+                cursor: pointer;
+                &.active {
+                    color: bisque;
+                }
+            }
+            & .language-en:hover {
+                opacity: 0.7;
+            }
+            .language-vi {
+                margin: 0 4px;
+                cursor: pointer;
+                &.active {
+                    color: aquamarine;
+                }
+            }
+            & .language-vi:hover {
+                opacity: 0.7;
+            }
+        }
+        .btn-logout {
+            color: $common-text-color;
+            line-height: 40px;
+            height: 40px;
+            padding: 0 10px;
+            &:hover {
+                background-color: darken($colormain, 5);
+            }
+            i {
+                font-size: $base-size + 1px;
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.information {
+    margin: 30px 0px;
+    .doctor-name {
+        width: 100%;
+        margin: 10px 0px;
+        display: flex;
+        height: 30px;
+        label {
+            width: 10%;
+            font-weight: 500;
+            height: 80%;
+        }
+        select {
+            width: 80%;
+        }
+        button {
+            display: block;
+            padding: 0 10px;
+            width: 10% !important;
+            text-align: center;
+            margin-left: 5px;
+        }
+    }
+    .introduce-info {
+        display: flex;
+        height: 80px;
+        margin: 10px 0px;
+        label {
+            display: block;
+            width: 10%;
+        }
+        input {
+            width: 90%;
+            outline: none;
+        }
+    }
+}
+
+.doctor-info {
+    display: flex;
+    flex-wrap: wrap;
+    // height: 80px;
+    margin: 10px -5px;
+    .doctor-price {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        select {
+            padding: 5px;
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+    .doctor-pay {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        select {
+            padding: 5px;
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+    .doctor-province {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        select {
+            padding: 5px;
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+    .name-clinic {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        input {
+            padding: 5px;
+            width: 100%;
+            outline: none;
+        }
+    }
+    .address-clinic {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        input {
+            padding: 5px;
+            width: 100%;
+            outline: none;
+        }
+    }
+    .note2 {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        input {
+            padding: 5px;
+            width: 100%;
+            outline: none;
+        }
+    }
+    .count2 {
+        width: 32.57%;
+        margin: 0 5px;
+        label {
+            display: block;
+        }
+        select {
+            padding: 5px;
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+}
+
+.description {
+    label {
+        font-weight: 500;
+        padding: 5px;
+    }
+}

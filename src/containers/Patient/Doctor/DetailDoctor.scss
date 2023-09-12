@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.detail-doctor {
+    margin-top: 100px;
+    .grid {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .row1 {
+            display: none;
+        }
+        .row2 {
+            display: flex;
+            .image-doctor {
+                background: url('../../../assets/images/vuongsonhien.png') no-repeat center;
+                height: 120px;
+                width: 120px;
+                background-size: cover;
+                border-radius: 50%;
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+            .introduce-doctor {
+                .name-doctor {
+                    border: 1px solid red;
+                    font-size: 27px;
+                    margin-bottom: 10px;
+                    color: #333;
+                    font-weight: bold;
+                }
+                .summary-doctor {
+                    border: 1px solid red;
+                    font-size: 13px;
+                    color: #555;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                }
+            }
+        }
+        .row3 {
+            .select-schedule {
+                border: none;
+                outline: none;
+                padding: 4px;
+                color: #337ab7;
+                font-size: 16px;
+                border-bottom: 1px solid #337ab7;
+                margin: 4px 0;
+                font-weight: 600;
+            }
+            .title2 {
+                margin: 6px 0;
+                text-transform: uppercase;
+                font-weight: 600;
+                i {
+                    margin-right: 6px;
+                    font-size: 17px;
+                }
+            }
+            .content2 {
+                display: flex;
+                .schedule {
+                    width: 50%;
+                    border-right: 2px solid #337ab7;
+                }
+                .address {
+                    width: 50%;
+                }
+            }
+        }
+        .row4 {
+            border: 1px solid #ddd;
+            padding: 10px 100px;
+            background-color: #ccc;
+        }
+    }
+}

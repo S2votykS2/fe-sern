@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title2 {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: rgb(102, 102, 102);
+}
+
+button {
+    color: #45C3D2;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+
+.price-from,
+.price-to {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+// Scss
+.grid {
+    .address {
+        .title2 {}
+        .nameClinic {
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .addressClinic {
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+    .price {
+        .price-detail {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                li {
+                    padding: 0;
+                    margin: 0;
+                    background-color: rgb(248, 248, 248);
+                    border: 1px solid #ccc;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .insurance {
+        .insurance-detail {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                li {
+                    padding: 0;
+                    margin: 0;
+                    background-color: rgb(248, 248, 248);
+                    border: 1px solid #ccc;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

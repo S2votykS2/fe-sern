@@ -1,0 +1,67 @@
+{
+    "homeheader": {
+        "speciality": "Chuyên khoa",
+        "speciality-description": "Tìm bác sĩ theo chuyên khoa",
+        "clinix": "Cơ sở y tế",
+        "clinix-description": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "doctor-description": "Chọn bác sĩ giỏi",
+        "checkupPackage": "Gói khám",
+        "checkupPackage-description": "Khám sức khỏe tổng quát",
+        "support": "Trợ giúp"
+    },
+    "homesearch": {
+        "header": "Nền tảng y tế",
+        "description": "Chăm sóc sức khỏe toàn diện",
+        "select1": "Khám chuyên khoa",
+        "select2": "Khám từ xa",
+        "select3": "Khám tổng quát",
+        "select4": "Xét nghiệm y học",
+        "select5": "Sức khỏe tinh thần",
+        "select6": "Khám nha khoa",
+        "select7": "Gói phẫu thuật",
+        "select8": "Sản phẩm y tế",
+        "select9": "Bài kiểm tra sức khỏe"
+
+    },
+    "menu": {
+        "system": "Người dùng",
+        "system-manage": {
+            "react-manage": "CRUD React",
+            "redux-manage": "CRUD Redux",
+            "admin-manage": "Quản lý admin",
+            "doctor-manage": "Quản lý thông tin giới thiệu ",
+            "patient-manage": "Quản lý bệnh nhân",
+            "schedule-manage": "Quản lý lịch hẹn",
+            "doctor-info": "Quản lý thông tin bác sĩ"
+        },
+
+        "clinic": "Phòng khám",
+        "clinic-manage": {
+            "clinic-manage": "Quản lý phòng khám"
+        },
+        "speciality": "Chuyên khoa",
+        "speciality-manage": {
+            "speciality-manage": "Quản lý chuyên khoa"
+        },
+        "handbook": "Cẩm nang",
+        "handbook-manage": {
+            "handbook-manage": "Quản lý cẩm nang"
+        }
+    },
+    "crudredux": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstname": "Họ",
+        "lastname": "Tên",
+        "phonenumber": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "avatar": "Ảnh đại diện",
+        "create": "Lưu người dùng",
+        "update": "Lưu thay đổi"
+    }
+}

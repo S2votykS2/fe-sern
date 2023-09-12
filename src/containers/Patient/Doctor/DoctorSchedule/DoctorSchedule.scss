@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0 -14px;
+        li {
+            margin: 0px 4px 4px 4px;
+            button {
+                font-size: 16px;
+                font-weight: 550;
+                outline: none;
+                border: none;
+                background-color: rgb(255, 248, 174);
+                padding: 10px 14px;
+                &:hover {
+                    border: 1px solid #337ab7;
+                }
+            }
+        }
+    }
+    .click {
+        margin-top: 12px;
+        color: #333;
+        i {
+            font-size: 15px;
+            margin: 0 3px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.avatar {
+    label {
+        background-color: #ddd;
+        padding: 4px;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+    .isUpload {
+        color: green;
+        margin-top: 4px;
+    }
+    .previewImage {
+        margin-top: 4px;
+        border: 1px solid red;
+        height: 80px;
+        width: 100%;
+        cursor: pointer;
+    }
+}

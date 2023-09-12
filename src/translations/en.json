@@ -1,0 +1,67 @@
+{
+    "homeheader": {
+        "speciality": "Speciality",
+        "speciality-description": "Find a doctor by specialty",
+        "clinix": "Medical facilities",
+        "clinix-description": "Choose a clinic hospital",
+        "doctor": "Doctor",
+        "doctor-description": "Choose a good doctor",
+        "checkupPackage": "Checkup package",
+        "checkupPackage-description": "General physical examination",
+        "support": "Support"
+    },
+    "homesearch": {
+        "header": "MEDICAL FOUNDATION",
+        "description": "HOLISTIC HEALTH CARE",
+        "select1": "Specialist examination",
+        "select2": "Telemedicine examination",
+        "select3": "Overview examination",
+        "select4": "Medical tests",
+        "select5": "Mental health",
+        "select6": "Dental examination",
+        "select7": "Surgical package",
+        "select8": "Medical products",
+        "select9": "Health checks"
+    },
+    "menu": {
+        "system": "User",
+        "system-manage": {
+            "react-manage": "CRUD React",
+            "redux-manage": "CRUD Redux",
+            "admin-manage": "Manage admin",
+            "doctor-manage": "Manage doctor introduce",
+            "patient-manage": "Manage patient",
+            "schedule-manage": "Manage schedule",
+            "doctor-info": "Manage doctor info"
+
+        },
+
+        "clinic": "Clinic",
+        "clinic-manage": {
+            "clinic-manage": "Manage clinic"
+        },
+        "speciality": "Speciality",
+        "speciality-manage": {
+            "speciality-manage": "Manage spaciality"
+        },
+        "handbook": "Handbook",
+        "handbook-manage": {
+            "handbook-manage": "Manage handbook"
+        }
+    },
+    "crudredux": {
+        "add": "Add new User",
+        "email": "Email",
+        "password": "Password",
+        "firstname": "FirstName",
+        "lastname": "LastName",
+        "phonenumber": "PhoneNumber",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "avatar": "Avatar",
+        "create": "Save User",
+        "update": "Save changes"
+    }
+}

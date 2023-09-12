@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media {
+    .grid-social {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .title {
+            text-align: left !important;
+        }
+        .row-social {
+            display: flex;
+            .col-social {
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                .social1 {
+                    background: #fff url('../../../assets/images/HomeFooter/suckhoedoisong.png') no-repeat center;
+                    background-size: 122px 30px;
+                    width: 162px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social2 {
+                    background: #fff url('../../../assets/images/HomeFooter/vtv1.png') no-repeat center;
+                    background-size: 66px 30px;
+                    width: 106px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social3 {
+                    background: #fff url('../../../assets/images/HomeFooter/ictnews.png') no-repeat center;
+                    background-size: 87px 30px;
+                    width: 127px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social4 {
+                    background: #fff url('../../../assets/images/HomeFooter/vnexpress.png') no-repeat center;
+                    background-size: 142px 30px;
+                    width: 183px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social5 {
+                    background: red url('../../../assets/images/HomeFooter/vtcnews.png') no-repeat center;
+                    background-size: 111px 30px;
+                    width: 151px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social6 {
+                    background: #fff url('../../../assets/images/HomeFooter/cuc-cong-nghe-thong-tin-bo-y-te-2.png') no-repeat center;
+                    background-size: 87px 30px;
+                    width: 127px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+                .social7 {
+                    background: #fff url('../../../assets/images/HomeFooter/infonet.png') no-repeat center;
+                    background-size: 89px 30px;
+                    width: 129px;
+                    height: 50px;
+                }
+                .social8 {
+                    background: #fff url('../../../assets/images/HomeFooter/vtcgo.png') no-repeat center;
+                    background-size: 56px 30px;
+                    width: 96px;
+                    height: 50px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+
+.download {
+    .grid {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .row {
+            display: flex;
+            .col-6 {
+                width: 50%;
+                .img {
+                    height: 500px;
+                    background: url('../../../assets/images/HomeFooter/bookingcare-app-2020.png') no-repeat right;
+                    background-size: 200px auto;
+                }
+                .information {
+                    padding: 40px 0;
+                    .header {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
+                    ol {
+                        text-decoration: none;
+                        margin: 20px 0;
+                        li {
+                            line-height: 18px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #333;
+                            margin-bottom: 5px;
+                        }
+                    }
+                    .link-app {
+                        .googleplay {
+                            display: inline-block;
+                            background: url('../../../assets/images/HomeFooter/google-play-badge.svg') no-repeat center;
+                            background-size: cover;
+                            width: 135px;
+                            height: 40px;
+                            cursor: pointer;
+                        }
+                        .appstore {
+                            display: inline-block;
+                            background: url('../../../assets/images/HomeFooter/app-store-badge-black.svg') no-repeat center;
+                            background-size: cover;
+                            width: 120px;
+                            height: 40px;
+                            cursor: pointer;
+                        }
+                    }
+                    .link-auto {
+                        color: #0d6efd;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: #64b9e5;
+    padding: 10px 0;
+    .grid {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        .left {
+            margin-top: 2px;
+            text-align: left;
+            color: #fff;
+            font-size: 15px;
+        }
+        .right {
+            text-align: right;
+            i {
+                font-size: 30px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+}
